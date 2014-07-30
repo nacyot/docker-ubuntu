@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:12.04
 MAINTAINER Daekwon Kim <propellerheaven@gmail.com>
 
 # Update Base System

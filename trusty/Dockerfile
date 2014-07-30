@@ -18,8 +18,8 @@ RUN dpkg-reconfigure locales
 
 # Install Basic Packages
 RUN apt-get install -y build-essential software-properties-common
-RUN apt-get install -y wget curl git man unzip nano tmux emacs
-RUN apt-get install -y zsh
+RUN apt-get install -y wget curl git man unzip nano tmux colord
+RUN apt-get install -y zsh emacs
 RUN git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 RUN cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 RUN chsh -s /bin/zsh
